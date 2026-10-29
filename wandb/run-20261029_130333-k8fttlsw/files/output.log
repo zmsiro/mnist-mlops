@@ -1,0 +1,14 @@
+Training on mps
+Epoch 01/10: train loss=0.3896, val loss=0.2879, val accuracy=91.68%, macro F1=0.9153
+Epoch 02/10: train loss=0.2941, val loss=0.2851, val accuracy=92.01%, macro F1=0.9183
+Epoch 03/10: train loss=0.2831, val loss=0.2752, val accuracy=92.54%, macro F1=0.9244
+Epoch 04/10: train loss=0.2762, val loss=0.2771, val accuracy=92.07%, macro F1=0.9196
+Epoch 05/10: train loss=0.2718, val loss=0.2685, val accuracy=92.53%, macro F1=0.9242
+Epoch 06/10: train loss=0.2677, val loss=0.2733, val accuracy=92.17%, macro F1=0.9205
+Epoch 07/10: train loss=0.2653, val loss=0.2759, val accuracy=92.29%, macro F1=0.9218
+Epoch 08/10: train loss=0.2631, val loss=0.2738, val accuracy=92.23%, macro F1=0.9211
+Epoch 09/10: train loss=0.2614, val loss=0.2746, val accuracy=92.33%, macro F1=0.9220
+Epoch 10/10: train loss=0.2602, val loss=0.2733, val accuracy=92.46%, macro F1=0.9234
+[34m[1mwandb[0m: [33mWARNING[0m Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+[34m[1mwandb[0m: [33mWARNING[0m Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+Saved model.pt

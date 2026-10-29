@@ -48,28 +48,6 @@ Other options: `--epochs 5`, `--batch-size 128`, `--seed 123`, `--project my-pro
 
 ## W&B report
 
-<!-- REPORT_URL_START -->
-W&B report: not created yet; run `python train.py` while logged into W&B.
-<!-- REPORT_URL_END -->
+https://forge.coreweave.com/wandb/zmsiro-iowa-state-university/mnist-mlops/reports/MNIST-Model-Training---k8fttlsw--VmlldzoxODIwNDIzNg==
 
-The programmatically generated report contains live charts for the training/validation loss, validation accuracy, precision/recall/F1, gradient norm, learning rate, and an embedded grid of predictions and a confusion matrix. W&B also holds the interactive prediction table and confusion matrix in each run's workspace. If automatic publication fails because of workspace/API permissions, create a report in the W&B dashboard, add the logged panels, and paste the resulting URL above.
-
-## Files
-
-- `train.py`: network, training and evaluation, metrics, predictions and report generation
-- `requirements.txt`: Python dependencies
-- `model.pt`: trained weights, generated after running the code (commit this for submission)
-- `prediction_grid.png` and `confusion_matrix.png`: images generated after training
-- `report_url.txt`: link to generated W&B report, if publication succeeds
-- `.gitignore`: excludes downloaded data, virtual environments and W&B local cache
-
-## Submission checklist
-
-- [ ] Execute the training script successfully on real MNIST data
-- [ ] Run an alternative configuration; review the W&B experiment comparison
-- [ ] Confirm the automatic W&B report exists and all desired visualizations appear
-- [ ] Confirm `model.pt` exists and commit the selected trained weights
-- [ ] Check the final report URL above
-- [ ] Push repository to GitHub and submit its link
-
-**Dataset note:** This is the standard MNIST test split used for repeated epoch-level evaluation, following the course skeleton. For model-selection research, a separate validation split from the training data would be preferable, preserving the test set for one final evaluation.
+ChatGPT (OpenAI) was used to assist with code development, debugging, and documentation. AI-generated suggestions were reviewed and incorporated into the project, with model training and experiment tracking performed using PyTorch and Weights & Biases.

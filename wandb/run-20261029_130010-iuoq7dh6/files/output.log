@@ -1,0 +1,18 @@
+Training on mps
+100%|██████████████████████████████████████| 9.91M/9.91M [00:00<00:00, 20.8MB/s]
+100%|███████████████████████████████████████| 28.9k/28.9k [00:00<00:00, 714kB/s]
+100%|██████████████████████████████████████| 1.65M/1.65M [00:00<00:00, 2.79MB/s]
+100%|██████████████████████████████████████| 4.54k/4.54k [00:00<00:00, 4.16MB/s]
+Epoch 01/10: train loss=0.4340, val loss=0.2234, val accuracy=93.36%, macro F1=0.9328
+Epoch 02/10: train loss=0.3627, val loss=0.2191, val accuracy=93.97%, macro F1=0.9391
+Epoch 03/10: train loss=0.3425, val loss=0.2226, val accuracy=94.38%, macro F1=0.9432
+Epoch 04/10: train loss=0.3269, val loss=0.2223, val accuracy=94.31%, macro F1=0.9425
+Epoch 05/10: train loss=0.3269, val loss=0.2483, val accuracy=93.92%, macro F1=0.9383
+Epoch 06/10: train loss=0.3152, val loss=0.2577, val accuracy=94.00%, macro F1=0.9395
+Epoch 07/10: train loss=0.3120, val loss=0.2340, val accuracy=94.52%, macro F1=0.9447
+Epoch 08/10: train loss=0.3076, val loss=0.2052, val accuracy=95.03%, macro F1=0.9500
+Epoch 09/10: train loss=0.3099, val loss=0.2346, val accuracy=94.72%, macro F1=0.9470
+Epoch 10/10: train loss=0.2984, val loss=0.2104, val accuracy=95.12%, macro F1=0.9510
+[34m[1mwandb[0m: [33mWARNING[0m Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+[34m[1mwandb[0m: [33mWARNING[0m Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+Saved model.pt

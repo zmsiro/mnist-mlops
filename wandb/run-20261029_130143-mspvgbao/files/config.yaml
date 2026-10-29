@@ -1,0 +1,151 @@
+_wandb:
+    value:
+        cli_version: 0.31.0
+        e:
+            01a188d3-2dc9-7ce0-a530-66a8239ffc7d:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 8
+                    macModel: MacBookAir10,1
+                    memoryGb: 8
+                    name: Apple M1
+                    pcpuCores: 4
+                    ramTotalBytes: "8589934592"
+                    swapTotalBytes: "8589934592"
+                args:
+                    - --learning-rate
+                    - "0.001"
+                    - --hidden-layers
+                    - 256,128
+                    - --dropout-rate
+                    - "0.3"
+                codePath: train.py
+                codePathLocal: train.py
+                cpu:
+                    model: Apple M1
+                cpu_count: 8
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "494384795648"
+                        used: "472410042368"
+                email: zmsiro@iastate.edu
+                executable: /Users/zoesirotiak/miniconda/bin/python
+                host: Zoes-MacBook-Air.local
+                memory:
+                    total: "8589934592"
+                os: macOS-27.0.1-arm64-arm-64bit-Mach-O
+                program: /Users/zoesirotiak/Desktop/Classes/Fall 2026/mnist-mlops/train.py
+                python: CPython 3.13.11
+                root: /Users/zoesirotiak/Desktop/Classes/Fall 2026/mnist-mlops
+                startedAt: "2026-10-29T18:01:43.622515Z"
+                writerId: 01a188d3-2dc9-7ce0-a530-66a8239ffc7d
+        m:
+            - "1": train/epoch_loss
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": epoch
+              "6":
+                - 3
+              "7": []
+            - "1": train/batch_loss
+              "5": 4
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": global_step
+              "6":
+                - 3
+              "7": []
+            - "1": train/gradient_norm
+              "5": 4
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": train/learning_rate
+              "5": 4
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "2": val/*
+              "5": 2
+              "6":
+                - 1
+              "7": []
+        python_version: 3.13.11
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 53
+            "2":
+                - 1
+                - 5
+                - 41
+                - 53
+            "3":
+                - 1
+                - 2
+                - 3
+                - 7
+                - 16
+                - 62
+                - 78
+            "4": 3.13.11
+            "5": 0.31.0
+            "12": 0.31.0
+            "13": darwin-arm64
+        visualize:
+            val/confusion_matrix:
+                panel_config:
+                    fieldSettings:
+                        Actual: Actual
+                        Predicted: Predicted
+                        nPredictions: nPredictions
+                    panelDefId: wandb/confusion_matrix/v1
+                    stringSettings:
+                        title: Confusion Matrix Curve
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: val/confusion_matrix_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+batch_size:
+    value: 64
+dropout_rate:
+    value: 0.3
+epochs:
+    value: 10
+hidden_layers:
+    value:
+        - 256
+        - 128
+learning_rate:
+    value: 0.001
+optimizer:
+    value: Adam
+seed:
+    value: 42
